@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
             Intent(this@MainActivity,LoginActivity::class.java)
                 .also { startActivity(it) }
         }
+
         registerBtn.setOnClickListener {
             Intent(this@MainActivity,RegisterActivity::class.java)
                 .also { startActivity(it) }
